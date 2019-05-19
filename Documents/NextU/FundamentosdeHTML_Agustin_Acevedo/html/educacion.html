@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image xlink:href="../img/logo.svg" width="250px" height="150px"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Nombres: Agustin Ramon</h2>
+      <h2>Apellidos: Acevedo Lanz</h2>
+      <h3>Fecha de nacimiento: 18 de enero de 1991</h3>
+      <h3>Lugar de nacimiento: San Felix, Venezuela</h3>
+    </header>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="educacion.html">Educación</a>
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <h2>Educación</h2>
+      <table border="1">
+        <tr>
+          <td>Año</td>
+          <td>Institución</td>
+          <td>Lugar</td>
+          <td>¿Culminó?</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>Iberoamericano</td>
+          <td>Puerto Ordaz</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>Universidad Católica Andres Bello</td>
+          <td>Puerto Ordaz</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Aws</td>
+          <td>Monterrey</td>
+          <td>Si</td>
+        </tr>
+      </table>
+      <form id="AgregarEstudio" autocomplete="OFF">
+        <h3>Agregar Estudios</h3>
+        <section>
+          <label for="anio">Año:</label>
+          <select name="cmbAnio">
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019" selected>2019</option>
+          </select>
+        </section>
+        <section>
+          <label for="institucion">Institución:</label>
+          <input type="text" name="txtInstitucion" size="30" value="" placeholder="Introduzca Institución" required>
+        </section>
+        <section>
+          <label for="lugar">Lugar:</label>
+          <textarea name="txtLugar"  placeholder="Introduzca Lugar" rows="4" cols="30"></textarea>
+        </section>
+        <input type="submit" name="" value="Enviar">
+      </form>
+    </section>
+    <footer>
+        <a href="https://www.Instagram.com" target="_blank">Instagram: agustin1801</p>
+    </footer>
+  </body>
+</html>
